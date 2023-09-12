@@ -34,6 +34,8 @@ public class oAuthTest {
 		 // add the print for git
 		System.out.println("THIS IS for GIT ");
 		
+		// for dev branch
+		System.out.println("THIS IS for dev GIT ");
 
 
 		String AccessToken = given().urlEncodingEnabled(false)
