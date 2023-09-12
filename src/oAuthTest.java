@@ -27,8 +27,14 @@ public class oAuthTest {
 		String partialcode = url.split("code=")[1];
 		String code = partialcode.split("&scope")[0];
 		System.out.println(code);
+
 		
 		System.out.println("this is suresh");
+
+		 // add the print for git
+		System.out.println("THIS IS for GIT ");
+		
+
 
 		String AccessToken = given().urlEncodingEnabled(false)
 				.queryParams("code",code)
