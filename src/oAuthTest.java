@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import pojo.Api;
@@ -27,7 +28,7 @@ public class oAuthTest {
 		String code = partialcode.split("&scope")[0];
 		System.out.println(code);
 		
-		
+		System.out.println("this is suresh");
 
 		String AccessToken = given().urlEncodingEnabled(false)
 				.queryParams("code",code)
