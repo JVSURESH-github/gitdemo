@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T21:00:05 IST" name="Default suite" finished-at="2023-07-25T21:00:09 IST" duration-ms="4690">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T21:00:05 IST" name="Default test" finished-at="2023-07-25T21:00:09 IST" duration-ms="4690">
+      <class name="Section7.Dynamic">
+        <test-method signature="addbook(java.lang.String,java.lang.String)[pri:0, instance:Section7.Dynamic@209da20d]" started-at="2023-07-25T21:00:05 IST" name="addbook" data-provider="booksdata" finished-at="2023-07-25T21:00:09 IST" duration-ms="4064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[papa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbook -->
+        <test-method signature="addbook(java.lang.String,java.lang.String)[pri:0, instance:Section7.Dynamic@209da20d]" started-at="2023-07-25T21:00:09 IST" name="addbook" data-provider="booksdata" finished-at="2023-07-25T21:00:09 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbook -->
+        <test-method signature="addbook(java.lang.String,java.lang.String)[pri:0, instance:Section7.Dynamic@209da20d]" started-at="2023-07-25T21:00:09 IST" name="addbook" data-provider="booksdata" finished-at="2023-07-25T21:00:09 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbook -->
+      </class> <!-- Section7.Dynamic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
